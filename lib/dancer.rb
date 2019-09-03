@@ -9,6 +9,8 @@ class Dancer
  include 
  FancyDance::InstanceMethods
  
- 
+ def initialize(name)
+   @name = name 
+ end
  
 end
